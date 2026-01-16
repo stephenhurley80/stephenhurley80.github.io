@@ -3,43 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stephen Hurley | Profile</title>
+    <title>Stephen Hurley | Legal & Regulatory Director</title>
     <style>
-        /* Retro Color Palette */
         :root {
-            --paper: #f4f1ea; /* Off-white newsprint */
-            --ink: #2b2b2b;   /* Charcoal black */
-            --accent: #8b0000; /* Deep vintage red */
+            --paper: #f4f1ea; 
+            --ink: #1a1a1a;   
+            --accent: #8b0000; 
         }
 
         body {
             background-color: var(--paper);
             color: var(--ink);
-            font-family: "Georgia", serif; /* Classic serif font */
+            font-family: "Georgia", serif;
             display: flex;
             justify-content: center;
-            padding: 50px 20px;
+            padding: 60px 20px;
             line-height: 1.5;
         }
 
         .container {
-            max-width: 550px;
+            max-width: 600px;
             width: 100%;
-            border: 2px solid var(--ink); /* Sharp retro border */
-            padding: 40px;
+            border: 2px solid var(--ink);
+            padding: 50px;
             background: var(--paper);
-            box-shadow: 8px 8px 0px rgba(0,0,0,0.1); /* Hard "pop" shadow */
+            box-shadow: 12px 12px 0px rgba(0,0,0,0.1);
         }
 
         header {
-            border-bottom: 3px double var(--ink);
+            border-bottom: 4px double var(--ink);
             margin-bottom: 30px;
             padding-bottom: 20px;
             text-align: center;
         }
 
         h1 {
-            font-size: 2.5rem;
+            font-size: 2.4rem;
             text-transform: uppercase;
             letter-spacing: -1px;
             margin: 0;
@@ -50,32 +49,44 @@
             font-family: "Courier New", Courier, monospace;
             font-size: 0.9rem;
             text-transform: uppercase;
-            margin-top: 5px;
+            margin-top: 10px;
             color: var(--accent);
+            font-weight: bold;
         }
 
         .bio {
-            font-size: 1.1rem;
-            margin-bottom: 30px;
+            font-size: 1.05rem;
+            margin-bottom: 35px;
             text-align: justify;
         }
 
-        /* Retro Button Links */
+        .bio p { margin-bottom: 18px; }
+
+        .expertise-list {
+            font-family: "Courier New", Courier, monospace;
+            font-size: 0.85rem;
+            margin-bottom: 35px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
         .links-container {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 10px;
+            gap: 15px;
         }
 
         .link-card {
             border: 1px solid var(--ink);
-            padding: 12px;
+            padding: 14px;
             text-decoration: none;
             color: var(--ink);
             font-family: "Courier New", Courier, monospace;
             font-weight: bold;
             text-align: center;
+            font-size: 0.85rem;
             transition: all 0.2s;
+            text-transform: uppercase;
         }
 
         .link-card:hover {
@@ -83,9 +94,7 @@
             color: var(--paper);
         }
 
-        /* Make LinkedIn span full width for emphasis */
         .full-width { grid-column: span 2; }
-
     </style>
 </head>
 <body>
@@ -93,18 +102,26 @@
     <div class="container">
         <header>
             <h1>Stephen Hurley</h1>
-            <div class="tagline">Broadcaster • Educator • Policy Analyst</div>
+            <div class="tagline">Director & Associate General Counsel</div>
         </header>
         
         <div class="bio">
-            <p>A veteran voice in Canadian education, Stephen Hurley bridges the gap between deep pedagogical theory and public conversation. As the founder of <strong>voicEd Radio</strong>, he has created a unique space for live, democratic dialogue within the education community.</p>
+            <p>Senior professional with advanced degrees in law and economics and nearly 20 years’ experience of leading multinational teams on major projects.</p>
+            
+            <p>I specialize in finding solutions and taking strategic decisions in relation to a diverse range of complex legal and public policy issues, including infrastructure, competition, and international regulatory frameworks.</p>
+        </div>
+
+        <div class="expertise-list">
+            <strong>CORE AREAS:</strong><br>
+            • Legal: Competition, M&A, Privacy & Data Protection<br>
+            • Regulatory: Evidence-based Advocacy & Engagement<br>
+            • Policy: International Outreach & Strategic Campaigns
         </div>
 
         <div class="links-container">
-            <a href="https://www.linkedin.com/in/stephen-hurley-24424231/" class="link-card full-width" target="_blank">LINKEDIN PROFILE</a>
-            <a href="https://x.com/Stephen_Hurley" class="link-card" target="_blank">X (TWITTER)</a>
-            <a href="https://instagram.com/yourhandle" class="link-card" target="_blank">INSTAGRAM</a>
-            <a href="https://voiced.ca" class="link-card full-width" target="_blank">VOICED RADIO SITE</a>
+            <a href="https://www.linkedin.com/in/stephen-hurley-24424231/" class="link-card full-width" target="_blank">Professional LinkedIn Profile</a>
+            <a href="https://x.com/Stephen_Hurley" class="link-card" target="_blank">X (Twitter)</a>
+            <a href="https://www.instagram.com/stephenhurley80" class="link-card" target="_blank">Instagram</a>
         </div>
     </div>
 
