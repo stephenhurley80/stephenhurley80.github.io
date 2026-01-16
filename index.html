@@ -31,6 +31,15 @@
             width: 100%;
         }
 
+        .profile-photo {
+            width: 100px; /* Adjust size as needed */
+            height: 100px;
+            border-radius: 50%; /* Makes it a circle. Change to 4px for a soft square */
+            object-fit: cover; /* Prevents the image from stretching */
+            margin-bottom: 20px;
+            border: 1px solid var(--border);
+      }
+
         header {
             margin-bottom: 50px;
             border-bottom: 1px solid var(--border);
@@ -116,6 +125,11 @@
 
     <div class="content-wrapper">
         <header>
+            <img src="profile.jpg" alt="Stephen Hurley" class="profile-photo">
+            <h1>Stephen Hurley</h1>
+            <div class="tagline">Director & Associate General Counsel</div>
+        </header>
+        <header>
             <h1>Stephen Hurley</h1>
             <div class="tagline">Director & Associate General Counsel</div>
         </header>
@@ -140,3 +154,4 @@
 
 </body>
 </html>
+
